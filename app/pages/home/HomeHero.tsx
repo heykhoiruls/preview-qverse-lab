@@ -20,7 +20,7 @@ const HomeHero = () => {
   };
   return (
     <>
-      <div className="relative md:px-8 py-4 w-full">
+      <div className="relative md:px-8 md:py-4 w-full">
         <div className="h-screen relative">
           <Image
             src={dataHome[currentIndex].image}

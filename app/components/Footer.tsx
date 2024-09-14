@@ -42,9 +42,9 @@ const Footer = () => {
         ))}
       </div>
       <div className="border border-white" />
-      <div className="flex items-center justify-between">
+      <div className="flex items-center flex-col sm:flex-row sm:justify-between">
         <p className="text-xs">© 2024 Qverse Lab. All rights reserved.</p>
-        <div className="flex gap-8">
+        <div className="flex mt-4 sm:mt-0 gap-8">
           <LogoIcon name="facebook" />
           <LogoIcon name="youtube" />
           <LogoIcon name="instagram" />
